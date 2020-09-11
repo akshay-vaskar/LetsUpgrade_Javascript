@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Top 3 DJ's</h1>
+    <center><img src="Images_Day4/Avicii.jpg" 
+        width="1080px"
+        height="680px"
+        id="image"/><br>
+    <button onclick="Change1()">First DJ</button>
+    <button onclick="Change2()">Second DJ</button>
+    <button onclick="Change3()">Third DJ</button></center>
+    
+    <script>
+       function Change2(){
+           const a = document.getElementById("image");
+           a.src="Images_Day4/MartinGarrix.jpg";
+        }
+        function Change3(){
+            const b = document.getElementById("image");
+            b.src="Images_Day4/ArminVan.jpg";
+        }
+        function Change1(){
+            const c = document.getElementById("image");
+            c.src="Images_Day4/Avicii.jpg";
+        }
+    </script>
+</body>
+</html>
